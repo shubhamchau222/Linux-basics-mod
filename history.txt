@@ -1,0 +1,332 @@
+    1  sudo apt install build-essential dkms linux-headers-$(uname -r)
+    2  pwd
+    3  ls
+    4  cd Music/
+    5  sls
+    6  clear
+    7  ls
+    8  cd .. 
+    9  cd ..
+   10  clear
+   11  pwd
+   12  dir
+   13  mkdir linux_practice
+   14  dir
+   15  ls
+   16  clear
+   17  ls
+   18  cd linux_practice/
+   19  mkdir archieve
+   20  cd archieve/
+   21  pwd
+   22  touch file1.txt file2.txt file3.txt
+   23  ls
+   24  tar -cv
+   25  ls
+   26  tar -cvf tar_file.tar file1.txt file2.txt file3.txt
+   27  ls
+   28  du -sk file1.txt 
+   29  ls
+   30  rmdir tar_file.tar
+   31  rm tar_file.tar 
+   32  ls
+   33  tar -cvf tar_file.tar file1.txt file2.txt file3.txt
+   34  ls
+   35  du -sk file1.txt 
+   36  du -sk file2.txt
+   37  du -sk file3.txt
+   38  du -sk tar_file.tar
+   39  cd ..
+   40  du -sk archieve/
+   41  cd archieve/
+   42  ls
+   43  du -sh file1.txt
+   44  vi file1.txt
+   45  du -sh file1.txt
+   46  mkdir extracted_tar
+   47  ls -lh
+   48  ls -lah 
+   49  ls
+   50  ls -lh
+   51  tar -tf tar_file.tar 
+   52  ls
+   53  ls -lh
+   54  mv tar_file.tar extracted_tar/
+   55  cd extracted_tar/
+   56  ls -lh
+   57  ls -lsh
+   58  ls - lah
+   59  ls -lsh 
+   60  ls
+   61  tar -xvf tar_file.tar
+   62  ls
+   63  ls -lrt
+   64  sudo apt install gzip
+   65  sudo apt search gzip
+   66  clear
+   67  ls
+   68  mkdir compressed_files
+   69  ls
+   70  mv tar_file.tar ./compressed_files
+   71  cd compressed_files/
+   72  ls
+   73  gzip tar_file.tar
+   74  ls
+   75  ls -lrt
+   76  mkdir Unzipping_operations
+   77  ls
+   78  mv tar_file.tar.gz Unzipping_operations/
+   79  cd Unzipping_operations/
+   80  ls
+   81  bzip2 -d tar_file.tar.gz
+   82  ls
+   83  clear
+   84  cd..
+   85  cd   ..
+   86  ls
+   87  clear
+   88  ls
+   89  cd Unzipping_operations/
+   90  clear
+   91  cd ..
+   92  cd .. cd ..
+   93  cd ..
+   94  cd .. 
+   95  clear
+   96  ls
+   97  cd archieve/
+   98  ls
+   99  cd extracted_tar/
+  100  ls
+  101  cd compressed_files/
+  102  ls
+  103  cd Unzipping_operations/
+  104  ls
+  105  mkdir Unzippedfilegz
+  106  clear
+  107  ls
+  108  cp tar_file.tar.gz ./Unzippedfilegz/
+  109  cd Unzippedfilegz/
+  110  ls
+  111  ls -lah
+  112  ls -lsh
+  113  clear
+  114  ls
+  115  guzip tar_file.tar.gz 
+  116  sudo apt install gunzip
+  117  clear
+  118  guzip tar_file.tar.gz 
+  119  clear
+  120  gunzip tar_file.tar.gz 
+  121  tar -xvf tar_file.tar 
+  122  clear
+  123  ls -lsh
+  124  ls - lah
+  125  clera
+  126  clear
+  127  ls -lah
+  128  ls -lsh
+  129  cat file1.txt
+  130  more file1.txt
+  131  less file1.txt
+  132  less file3.tx 
+  133  less file2.txt
+  134  clear
+  135  touch operations.txt
+  136  mv operations.txt 
+  137  clear
+  138  vi operations.txt 
+  139  ls -lah
+  140  ls -lsh
+  141  cd ..
+  142  clear
+  143  tar --help
+  144  man --l
+  145  man --help
+  146  clear
+  147  cd ..
+  148  clear
+  149  runlevel
+  150  sudo vi/etc/default/grub
+  151  sudo vi  /etc/default/grub
+  152  clear
+  153  pwd
+  154  cat vi  /etc/default/grub
+  155  clear
+  156  ls
+  157  cat vi/etc/default/grub
+  158  cat vi /etc/default/grub
+  159  cat /etc/passwd
+  160  clear
+  161  cat /etc/passwd
+  162  clear
+  163  sudo adduser vickey
+  164  cat /etc/passwd
+  165  cat /etc/group
+  166  groups
+  167  id vickey
+  168  id shubham
+  169  clear
+  170  id shubham
+  171  groups
+  172  cat /etc/group
+  173  cat /etc/passwd
+  174  clear
+  175  cat etc/groups
+  176  cat etc/group
+  177  cat /etc/group
+  178  clear
+  179  id shubam
+  180  id shubham
+  181  clear
+  182  id codesmith^C
+  183  id codesmith
+  184  cleear
+  185  clear
+  186  sudo adduser --ingroup sudo codesmith
+  187  id codesmith
+  188  clear
+  189  ls
+  190  cd linux_practice/
+  191  locate file1.txt
+  192  ls
+  193  cd archieve/
+  194  ls
+  195  locate file2.txt
+  196  sudo apt locate mlocate
+  197  clear
+  198  sudo apt install mlocate
+  199  clear
+  200  locate file1.txt
+  201  locate file10.txt
+  202  sudo updatedb
+  203  cd /var/lib/mlocate
+  204  ls
+  205  cd ..
+  206  pwd
+  207  cd var/lib/mlocate ls
+  208  cd var/lib/mlocate 
+  209  ls
+  210  mlocate file1.txt
+  211  find file1.txt
+  212  cd ~
+  213  pwd
+  214  find file1.txt
+  215  cd ar
+  216  ls
+  217  cd linux_practice/
+  218  find file1.txt
+  219  cls
+  220  clear
+  221  ls
+  222  cd archieve/
+  223  ls
+  224  find file1.txt
+  225  find -name file2.txt
+  226  cd ~
+  227  ls
+  228  /home
+  229  find -name home
+  230  clear
+  231  locate file2.txt
+  232  clear
+  233  find -name file2
+  234  clear
+  235  locate file
+  236  clear
+  237  cd linux_practice/
+  238  find -name *txt
+  239  locate file2
+  240  locate file2.txt
+  241  clear
+  242  touch sample.pdf
+  243  cler
+  244  clear
+  245  cd ~
+  246  locate *pdf
+  247  find -name .pdf
+  248  find -name *pdf
+  249  ./Downloads/linux_NotsTarfile andTextfile.pdf
+  250  ls
+  251  cd Downloads
+  252  ls
+  253  l
+  254  ls
+  255  cat linux_NotsTarfile\ andTextfile.pdf 
+  256  cls
+  257  clear
+  258  ls -lah
+  259  ls -lsh
+  260  claer
+  261  clear
+  262  ls
+  263  find -name file2.txt
+  264  locate file2.txt
+  265  clear
+  266  ls
+  267  cd ~
+  268  ls
+  269  cd linux_practice/
+  270  vi fruits.txt
+  271  clear
+  272  ls
+  273  touch fruits.txt
+  274  ls
+  275  rm sample.pdf 
+  276  clear
+  277  ls
+  278  grep clear fruits.txt 
+  279  grep mango fruits.txt 
+  280  grep --help
+  281  clea
+  282  clear
+  283  cat fruits.txt 
+  284  grep -A2 apple fruits.txt 
+  285  ls
+  286  cd ~
+  287  ls
+  288  cd linux_practice/
+  289  ls
+  290  vi fish.txt
+  291  grep -A2 bluefin fish.txt 
+  292  grep -B2 bluefin fish.txt 
+  293  cat fish.txt
+  294  more fish.txt
+  295  cat fish.
+  296  ls
+  297  clear
+  298  ls
+  299  cd linux_practice/
+  300  ls
+  301  cat fish.txt 
+  302  clae
+  303  clear
+  304  cd ~
+  305  clear
+  306  cat etc/groups
+  307  cat etc/group
+  308  /Desktop
+  309  clear
+  310  ls
+  311  cd Desktop/
+  312  ls
+  313  cd /search
+  314  cd search
+  315  clear
+  316  cat /etc/group
+  317  sudo groupadd yanky]
+  318  cat /etc/group
+  319  sudo group del yanky]
+  320  sudo groupdel yanky]
+  321  cat /etc/group
+  322  history
+  323  sudo groupadd -g 7777 developer
+  324  cat /etc/group
+  325  sudo userdel vickey
+  326  cat /etc/group
+  327  cd ~
+  328  ls
+  329  cd linux_practice/
+  330  toch sample.txt
+  331  touch sample.txt
+  332  history > history.txt
